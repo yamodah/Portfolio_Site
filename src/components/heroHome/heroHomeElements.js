@@ -1,5 +1,6 @@
 import styled from "styled-components";
-
+import {FaGithubAlt, FaLinkedin} from "react-icons/fa"
+import { FiMail } from "react-icons/fi";
 export const HeroContainer = styled.div`
 background:#0c0c0c;
 display:flex;
@@ -29,3 +30,54 @@ object-fit: cover;
 background: #232a34;
 
 `
+export const HeroContent = styled.div`
+z-index:3;
+max-width:1200px;
+position:absolute;
+padding: 8px 24px;
+display:flex;
+flex-direction: column;
+align-item:center;
+`
+export const HeroH1 = styled.h1`
+color:#000;
+font-size:48px;
+text-align:center;
+
+@media screen and (max-width: 768px){
+    font-size:40px;
+}
+@media screen and (max-width: 480px){
+    font-size:32px;
+}
+`
+export const HeroH2 = styled.h2`
+margin-top:24px;
+color:#000;
+font-size: 36px;
+text-align:center;
+max-width:600px;
+
+@media screen and (max-width: 768px){
+    font-size:24px;
+}
+@media screen and (max-width: 480px){
+    font-size:18px;
+}
+`
+export const HeroBtnsWrapper = styled.div`
+margint-top:32px;
+display:flex;
+flex-direction:column;
+align-items:center;
+`
+export const GithubIcon = styled(FaGithubAlt)`
+font-size:20px;
+`
+export const LinkedInIcon = styled(FaLinkedin)`
+font-size:20px;
+`
+export const EmailIcon = styled(FiMail)`
+font-size:20px;
+`
+
