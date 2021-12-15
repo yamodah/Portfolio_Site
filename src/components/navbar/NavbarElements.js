@@ -4,8 +4,8 @@ import {Link as LinkScroll} from "react-scroll"
 
 
 export const Nav = styled.nav`
-background: #000;
-height:80px;
+background: rgba(232, 53, 18, 0.6);
+height:60px;
 // margin-top: -80px;
 display: flex;
 justify-content: center;
@@ -22,7 +22,7 @@ z-index: 10;
 export const NavbarContainer = styled.div`
 display:flex;
 justify-content: space-between;
-height: 80px;
+height: 60px;
 z-index: 1;
 width: 100%;
 padding: 0 24px;
@@ -58,6 +58,9 @@ display: flex;
 align-items: center;
 list-style: none;
 text-align: center;
+padding:0;
+margin-top:1rem;
+margin-right:1rem;
 
 @media screen and (max-width: 768px){
     display:none
