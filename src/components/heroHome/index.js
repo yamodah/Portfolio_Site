@@ -1,37 +1,56 @@
-import React, {useState} from 'react'
-import { HeroContainer, HeroBg, VideoBg, GithubIcon, LinkedInIcon, EmailIcon, Button, HeroBtnsWrapper, HeroContent, HeroH1, HeroH2 } from './HeroHomeElements'
-import Video from "../../videos/video.mp4"
-const HomeHero = () => {
-    const [hover, setHover] = useState(false)
-    const handleHover = () =>{
-        setHover(!hover)
-    }
-    return (
-        <HeroContainer id="home">
-            <HeroBg>
-                <VideoBg autoPlay loop muted src={Video} type="video/mp4"/>
-            </HeroBg>
-            <HeroContent>
-                <HeroH1>
-                    Yassine Dahlek.
-                </HeroH1>
-                <HeroH2>
-                    Coding, Learning & Problem Solving.
-                </HeroH2>
-                <HeroBtnsWrapper>
-                    <Button onMouseEnter={handleHover} onMouseLeave={handleHover}>
-                        {hover ? <GithubIcon/>:"Github" }
-                    </Button>
-                    <Button>
-                    {hover ? <LinkedInIcon/>:"LinkedIn" }
-                    </Button>
-                    <Button>
-                    {hover ? <EmailIcon/>:"Email" }
-                    </Button>
-                </HeroBtnsWrapper>
-            </HeroContent>
-        </HeroContainer>
-    )
-}
+import React, { useState } from "react";
+import {
+  HeroContainer,
+  HeroBg,
+  VideoBg,
+  GithubIcon,
+  LinkedInIcon,
+//   EmailIcon,
+  HeroBtnsWrapper,
+  HeroContent,
+  HeroH1,
+  HeroH2,
+} from "./HeroHomeElements";
 
-export default HomeHero
+import { Button } from "../ButtonElement/Button";
+import Video from "../../videos/video.mp4";
+const HomeHero = () => {
+  const [hoverG, setHoverG] = useState(false);
+  const handleHoverG = () => {
+    setHoverG(!hoverG);
+  };
+  const [hoverL, setHoverL] = useState(false);
+  const handleHoverL = () => {
+    setHoverL(!hoverL);
+  };
+//   const [hoverE, setHoverE] = useState(false);
+//   const handleHoverE = () => {
+//     setHoverE(!hoverE);
+//   };
+  return (
+    <HeroContainer id="home">
+      <HeroBg>
+        <VideoBg autoPlay loop muted src={Video} type="video/mp4" />
+      </HeroBg>
+      <HeroContent>
+        <HeroH1>Yassine Dahlek.</HeroH1>
+        <HeroH2>Coding, Learning & Problem Solving.</HeroH2>
+        <HeroBtnsWrapper>
+          <Button onMouseEnter={handleHoverG} onMouseLeave={handleHoverG} primary="true" big="true" fontBig="true"
+          href="https://github.com/yamodah"
+          target='_blank'
+          rel="noopener"
+          aria-label='Github'>{hoverG ? <GithubIcon /> : "Github"}</Button>
+          <Button onMouseEnter={handleHoverL} onMouseLeave={handleHoverL} primary="true" big="true" fontBig="true"
+          href="https://www.linkedin.com/in/yassine-dahlek"
+          target='_blank'
+          rel="noopener"
+          aria-label='LinkedIn'>{hoverL ? <LinkedInIcon /> : "LinkedIn"}</Button>
+          {/* <Button onMouseEnter={handleHoverE} onMouseLeave={handleHoverE} primary="true" big="true">{hoverE ? <EmailIcon /> : "Email"}</Button> */}
+        </HeroBtnsWrapper>
+      </HeroContent>
+    </HeroContainer>
+  );
+};
+
+export default HomeHero;

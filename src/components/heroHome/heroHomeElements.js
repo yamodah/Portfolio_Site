@@ -40,7 +40,7 @@ flex-direction: column;
 align-item:center;
 `
 export const HeroH1 = styled.h1`
-color:#000;
+color:#fff;
 font-size:48px;
 text-align:center;
 
@@ -53,7 +53,7 @@ text-align:center;
 `
 export const HeroH2 = styled.h2`
 margin-top:24px;
-color:#000;
+color:#fff;
 font-size: 36px;
 text-align:center;
 max-width:600px;
@@ -66,18 +66,24 @@ max-width:600px;
 }
 `
 export const HeroBtnsWrapper = styled.div`
-margint-top:32px;
+margin:2rem;
+margin-top:3rem;
 display:flex;
-flex-direction:column;
+justify-content:space-evenly;
 align-items:center;
+
+@media screen and (max-width: 768px){
+    flex-direction: column;
+    justify-content: space-between;
+}
 `
 export const GithubIcon = styled(FaGithubAlt)`
-font-size:20px;
+font-size:24px;
 `
 export const LinkedInIcon = styled(FaLinkedin)`
-font-size:20px;
+font-size:24px;
 `
 export const EmailIcon = styled(FiMail)`
-font-size:20px;
+font-size:24px;
 `
 
