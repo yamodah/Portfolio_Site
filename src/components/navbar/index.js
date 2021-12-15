@@ -5,7 +5,7 @@ const Navbar = () => {
         <>
         <Nav>
             <NavbarContainer>
-                <NavLogo>
+                <NavLogo to="/">
                     Bald-Beard
                 </NavLogo>
             </NavbarContainer>
