@@ -10,10 +10,12 @@ import {
   HeroContent,
   HeroH1,
   HeroH2,
+  AnchorIcon,
 } from "./HeroHomeElements";
 
 import { Button } from "../ButtonElement/Button";
 import Video from "../../videos/oceanDarkWater.mp4";
+ import {FaCloud, FaAnchor} from "react-icons/fa"
 const HomeHero = () => {
   const [hoverG, setHoverG] = useState(false);
   const handleHoverG = () => {
@@ -32,16 +34,18 @@ const HomeHero = () => {
       <HeroBg>
         <VideoBg autoPlay loop muted src={Video} type="video/mp4" />
       </HeroBg>
+      {/* <FaCloud style={{fontSize:"350px", color:"#1969EA",zIndex:"1", marginTop:"85px", alignSelf:"flex-start", opacity:".45"}}/> */}
       <HeroContent>
-        <HeroH1>Yassine Dahlek.</HeroH1>
-        <HeroH2>Coding, Learning & Problem Solving.</HeroH2>
+      
+        <HeroH1>Coding, Learning & Problem Solving</HeroH1>
+        <HeroH2>full stack software developer</HeroH2>
         <HeroBtnsWrapper>
           <Button onMouseEnter={handleHoverG} onMouseLeave={handleHoverG}  big="true" fontBig="true" primary="true"
           href="https://github.com/yamodah"
           target='_blank'
           rel="noopener"
           aria-label='Github'>{hoverG ? <GithubIcon /> : "Github"}</Button>
-          <Button onMouseEnter={handleHoverL} onMouseLeave={handleHoverL} big="true" fontBig="true"
+          <Button onMouseEnter={handleHoverL} onMouseLeave={handleHoverL} big="true" fontBig="true" primary="true"
           href="https://www.linkedin.com/in/yassine-dahlek"
           target='_blank'
           rel="noopener"
@@ -49,6 +53,10 @@ const HomeHero = () => {
           {/* <Button onMouseEnter={handleHoverE} onMouseLeave={handleHoverE} primary="true" big="true">{hoverE ? <EmailIcon /> : "Email"}</Button> */}
         </HeroBtnsWrapper>
       </HeroContent>
+      
+        <AnchorIcon to="/">
+            <FaAnchor />
+        </AnchorIcon>
     </HeroContainer>
   );
 };

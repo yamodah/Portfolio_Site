@@ -30,8 +30,8 @@ max-width: 1100px;
 `
 export const NavLogo = styled(LinkRouter)`
 color: #fff;
-text-shadow: 2px 2px 4px #000000;
-justtify-self:flex-start;
+text-shadow: 2px 2px 4px #000000,2px 2px 4px #000000;;
+justify-self:flex-start;
 cursor: pointer;
 font-size: 2rem;
 display:flex;
@@ -39,6 +39,10 @@ align-items: center;
 margin-left:24px;
 font-weight: bold;
 text-decoration: none;
+&:hover{
+    color:#1969EA;
+    text-shadow: 2px 2px 4px #fff;
+}
 `
 export const MobileIcon = styled.div`
 display:none;
@@ -74,11 +78,13 @@ height: 80px;
 `
 export const NavLinks = styled(LinkScroll)`
 color:#fff;
+text-shadow: 2px 2px 4px #000000;
 text-decoration:none;
 padding: 0 1rem;
 cursor: pointer;
 font-size: 1.5rem;
 &:hover{
     color:#1969EA;
+    text-shadow: 2px 2px 4px #fff;
 }
 `

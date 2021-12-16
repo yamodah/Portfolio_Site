@@ -15,13 +15,14 @@ justify-content:center;
 align-items:center;
 transition: all 0.2s ease-in-out;
 text-decoration:none;
-width:40%;
-margin:1rem;
-// border: groove white 2px;
+width:85%;
+margin:1.5rem;
+border: groove white 2px;
 
 &:hover {
     transition:all 0.2s ease-in-out;
     background:white;
+    border:none;
     // color:white;
 
 `
