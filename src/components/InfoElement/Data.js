@@ -1,0 +1,15 @@
+export const homeObj = {
+    id:"about",
+    lightBg:false,
+    lightText:true,
+    lightTextDesc:true,
+    topLine:"About Me",
+    headline:"Hi I'm Yassine !",
+    description:"I'm a Full Stack software developer with a passion for pragmatic and creative problem solving.",
+    imgStart:false,
+    img:require("../../images/Image.jpeg"),
+    alt:"Me",
+    dark:true,
+    primary:true,
+    darkText:false,
+}
