@@ -17,9 +17,10 @@ transition: all 0.2s ease-in-out;
 text-decoration:none;
 width:40%;
 margin:1rem;
+border: groove white 2px;
 
 &:hover {
     transition:all 0.2s ease-in-out;
-    background:${({primary})=>(primary? '#fff':"01BF71")};
+    background:#fff;
 
 `

@@ -13,7 +13,7 @@ import {
 } from "./HeroHomeElements";
 
 import { Button } from "../ButtonElement/Button";
-import Video from "../../videos/video.mp4";
+import Video from "../../videos/concertVideo.mp4";
 const HomeHero = () => {
   const [hoverG, setHoverG] = useState(false);
   const handleHoverG = () => {
@@ -36,12 +36,12 @@ const HomeHero = () => {
         <HeroH1>Yassine Dahlek.</HeroH1>
         <HeroH2>Coding, Learning & Problem Solving.</HeroH2>
         <HeroBtnsWrapper>
-          <Button onMouseEnter={handleHoverG} onMouseLeave={handleHoverG} primary="true" big="true" fontBig="true"
+          <Button onMouseEnter={handleHoverG} onMouseLeave={handleHoverG}  big="true" fontBig="true"
           href="https://github.com/yamodah"
           target='_blank'
           rel="noopener"
           aria-label='Github'>{hoverG ? <GithubIcon /> : "Github"}</Button>
-          <Button onMouseEnter={handleHoverL} onMouseLeave={handleHoverL} primary="true" big="true" fontBig="true"
+          <Button onMouseEnter={handleHoverL} onMouseLeave={handleHoverL} big="true" fontBig="true"
           href="https://www.linkedin.com/in/yassine-dahlek"
           target='_blank'
           rel="noopener"

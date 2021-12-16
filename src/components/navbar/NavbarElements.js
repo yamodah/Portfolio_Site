@@ -4,7 +4,7 @@ import {Link as LinkScroll} from "react-scroll"
 
 
 export const Nav = styled.nav`
-background: rgba(232, 53, 18, 0.6);
+background: rgb(192,192,192, 0.35);
 height:60px;
 margin-top: -80px;
 display: flex;
@@ -30,6 +30,7 @@ max-width: 1100px;
 `
 export const NavLogo = styled(LinkRouter)`
 color: #fff;
+text-shadow: 2px 2px 4px #000000;
 justtify-self:flex-start;
 cursor: pointer;
 font-size: 1.5rem;
@@ -76,6 +77,7 @@ color:#fff;
 text-decoration:none;
 padding: 0 1rem;
 cursor: pointer;
+text-shadow: 2px 2px 4px #000000;
 
 &.active{
     border-bottom:3px solid #01bf71;
