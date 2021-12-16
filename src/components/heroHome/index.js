@@ -15,7 +15,7 @@ import {
 
 import { Button } from "../ButtonElement/Button";
 import Video from "../../videos/oceanDarkWater.mp4";
- import {FaCloud, FaAnchor} from "react-icons/fa"
+ import {FaCloud, FaChevronDown} from "react-icons/fa"
 const HomeHero = () => {
   const [hoverG, setHoverG] = useState(false);
   const handleHoverG = () => {
@@ -55,7 +55,7 @@ const HomeHero = () => {
       </HeroContent>
       
         <AnchorIcon to="/">
-            <FaAnchor />
+            <FaChevronDown />
         </AnchorIcon>
     </HeroContainer>
   );

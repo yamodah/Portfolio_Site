@@ -115,5 +115,6 @@ z-index:7;
 &:hover{
     color:#1969EA;
     text-shadow: 2px 2px 4px #fff;
+    font-size:2.5rem;
 }
 `
