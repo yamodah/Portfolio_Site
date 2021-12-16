@@ -20,7 +20,7 @@ margin:1.5rem;
 border: groove white 2px;
 
 &:hover {
-    transition:all 0.2s ease-in-out;
+    // transition:all 0.2s ease-in-out;
     background:white;
     border:none;
     // color:white;

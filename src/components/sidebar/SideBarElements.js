@@ -19,7 +19,7 @@ export const CloseIcon = styled(FaTimes)`
 color:#fff;
 &:hover{
     color: #1969EA;
-    transition
+    transition: 0.3s ease-in-out;
 }
 `
 export const Icon = styled.div`
@@ -58,6 +58,6 @@ cursor:pointer;
 
 &:hover{
     color: #1969EA;
-    transition
+    transition:0.2s ease-in-out;
 }
 `

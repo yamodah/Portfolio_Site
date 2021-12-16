@@ -41,6 +41,7 @@ font-weight: bold;
 text-decoration: none;
 &:hover{
     color:#1969EA;
+    transition:0.2s ease-in-out;
     text-shadow: 2px 2px 4px #fff;
 }
 `
