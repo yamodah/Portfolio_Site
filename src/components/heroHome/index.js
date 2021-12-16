@@ -15,7 +15,7 @@ import {
 
 import { Button } from "../ButtonElement/Button";
 import Video from "../../videos/oceanDarkWater.mp4";
- import {FaCloud, FaChevronDown} from "react-icons/fa"
+ import {FaChevronDown} from "react-icons/fa"
 const HomeHero = () => {
   const [hoverG, setHoverG] = useState(false);
   const handleHoverG = () => {
