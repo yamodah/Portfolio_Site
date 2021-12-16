@@ -30,7 +30,7 @@ max-width: 1100px;
 `
 export const NavLogo = styled(LinkRouter)`
 color: #fff;
-text-shadow: 2px 2px 4px #000000,2px 2px 4px #000000;;
+text-shadow: 2px 2px 4px #000000,2px 2px 4px #000000;
 justify-self:flex-start;
 cursor: pointer;
 font-size: 2rem;

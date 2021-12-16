@@ -49,6 +49,7 @@ margin-bottom:16px;
 `
 
 export const Heading = styled.h1`
+text-shadow: 2px 2px 4px #000000,2px 2px 4px #000000;
 margin-bottom:24px;
 font-size:48px;
 line-height:1.1;
@@ -65,7 +66,7 @@ width:100%;
 margin-bottom:25px;
 font-size:18px;
 line-height:24px;
-color:${({darkText})=>(darkText?"#042861":"#fff")}
+color:${({darkText})=>(darkText?"#000":"#fff")}
 `
 
 export const ImgWrap = styled.div`

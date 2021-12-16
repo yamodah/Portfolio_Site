@@ -9,6 +9,8 @@ import {
   Heading,
   Subtitle,
 } from "./InfoElements";
+import { AnchorIcon } from "../heroHome/HeroHomeElements";
+import { FaChevronDown } from "react-icons/fa";
 const InfoSection = ({
   lightBg,
   id,
@@ -38,8 +40,12 @@ const InfoSection = ({
                 <Subtitle darkText={darkText}>{description4}</Subtitle>
               </TextWrapper>
             </Column>
-          </InfoRow>
+          </InfoRow> 
+          <AnchorIcon>
+            <FaChevronDown/>
+        </AnchorIcon>
         </InfoWrapper>
+       
       </InfoContainer>
     </>
   );
