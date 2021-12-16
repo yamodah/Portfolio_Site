@@ -26,13 +26,10 @@ font-family: 'Raleway', sans-serif;
 display:flex;
 align-items:flex-start;
 padding-top:8rem;
+flex-direction:column;
 `
 
-export const Column1 = styled.div`
-margin-bottom:15px;
-padding:0 15px;
-`
-export const Column2 = styled.div`
+export const Column = styled.div`
 margin-bottom:15px;
 padding:0 15px;
 `

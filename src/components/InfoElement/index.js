@@ -3,14 +3,11 @@ import {
   InfoContainer,
   InfoWrapper,
   InfoRow,
-  Column1,
-  Column2,
+  Column,
   TextWrapper,
   TopLine,
   Heading,
   Subtitle,
-  ImgWrap,
-  Img,
 } from "./InfoElements";
 const InfoSection = ({
   lightBg,
@@ -21,21 +18,23 @@ const InfoSection = ({
   headline,
   description,
   darkText,
-  img,
-  alt,
+  description2,
+  description3,
 }) => {
   return (
     <>
       <InfoContainer lightBg={lightBg} id={id}>
         <InfoWrapper>
-          <InfoRow imgStart={imgStart}>
-            <Column1>
+          <InfoRow >
+            <Column>
               <TextWrapper>
                 <TopLine>{topLine}</TopLine>
                 <Heading lightText={lightText}>{headline}</Heading>
                 <Subtitle darkText={darkText}>{description}</Subtitle>
+                <Subtitle darkText={darkText}>{description2}</Subtitle>
+                <Subtitle darkText={darkText}>{description3}</Subtitle>
               </TextWrapper>
-            </Column1>
+            </Column>
           </InfoRow>
         </InfoWrapper>
       </InfoContainer>
