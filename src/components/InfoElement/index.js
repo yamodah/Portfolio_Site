@@ -20,7 +20,9 @@ const InfoSection = ({
   darkText,
   description2,
   description3,
+  description4,
 }) => {
+
   return (
     <>
       <InfoContainer lightBg={lightBg} id={id}>
@@ -33,6 +35,7 @@ const InfoSection = ({
                 <Subtitle darkText={darkText}>{description}</Subtitle>
                 <Subtitle darkText={darkText}>{description2}</Subtitle>
                 <Subtitle darkText={darkText}>{description3}</Subtitle>
+                <Subtitle darkText={darkText}>{description4}</Subtitle>
               </TextWrapper>
             </Column>
           </InfoRow>

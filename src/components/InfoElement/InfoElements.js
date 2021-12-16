@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const InfoContainer =styled.div`
 color:#fff;
-background: ${({lightBg})=>(lightBg ? "#f9f9f9": "#010606")};
+background: ${({lightBg})=>(lightBg ? "rgba(25, 105, 234, 0.61)": "#010606")};
 
 @media screeen and (max-width: 768px){
     padding: 100px 0;
@@ -11,7 +11,7 @@ background: ${({lightBg})=>(lightBg ? "#f9f9f9": "#010606")};
 export const InfoWrapper = styled.div`
 display:flex;
 z-index:1;
-height:860px;
+height:775px;
 max-width:1100px;
 margin-right:auto;
 margin-left:auto;
@@ -34,16 +34,16 @@ margin-bottom:15px;
 padding:0 15px;
 `
 export const TextWrapper = styled.div`
-max-width:540px;
+max-width:720px;
 padding-top:0;
 padding-bottom:60px;
 `
 export const TopLine = styled.p`
 color:#1969EA;
-fonst-size:16px;
-line-height:16px;
+fonst-size:24px;
+line-height:28px;
 font-weight:700px;
-letter-spacing:1.4px;
+letter-spacing:2px;
 text-transform:uppercase;
 margin-bottom:16px;
 `
@@ -53,18 +53,19 @@ margin-bottom:24px;
 font-size:48px;
 line-height:1.1;
 font-weight: 600;
-color:${({lightText})=>(lightText ? "#f7f8f8":"#010606")};
+color:${({lightText})=>(lightText ? "#fff":"#010606")};
 
 @media screen and (max-width:480px){
     font-size:32px;
 }
 `
 export const Subtitle = styled.p`
-max-width:440opx;
-margin-bottom:35px;
+text-align:start;
+width:100%;
+margin-bottom:25px;
 font-size:18px;
 line-height:24px;
-color:${({darkText})=>(darkText?"#010606":"#fff")}
+color:${({darkText})=>(darkText?"#042861":"#fff")}
 `
 
 export const ImgWrap = styled.div`
@@ -77,4 +78,15 @@ max-height:100%;
 margin:100px 0 10px 0;
 padding-right:0;
 border-radius:50px;
+`
+
+export const WhiteLine = styled.hr`
+    width: 35%;
+    margin-top:-10px;
+    margin-left: auto;
+    margin-right: auto;
+    background:white;
+    margin-bottom:1rem;
+    border: 4px solid #fff;
+    border-radius:15px;
 `
