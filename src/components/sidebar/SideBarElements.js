@@ -18,7 +18,7 @@ top: ${({isOpen})=>(isOpen ? '0' : '-100%')};
 export const CloseIcon = styled(FaTimes)`
 color:#fff;
 &:hover{
-    color: rgba(232, 53, 18, 0.45);
+    color: #1969EA;
     transition
 }
 `
@@ -57,7 +57,7 @@ color:#fff;
 cursor:pointer;
 
 &:hover{
-    color: rgba(232, 53, 18, 0.75);
+    color: #1969EA;
     transition
 }
 `
