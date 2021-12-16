@@ -5,13 +5,13 @@ color:#fff;
 background: ${({lightBg})=>(lightBg ? "rgba(25, 105, 234, 0.61)": "#010606")};
 
 @media screeen and (max-width: 768px){
-    padding: 100px 0;
+    // height:1200px;
 }
 `
 export const InfoWrapper = styled.div`
 display:flex;
 z-index:1;
-height:775px;
+// height:775px;
 max-width:1100px;
 margin-right:auto;
 margin-left:auto;
@@ -19,6 +19,7 @@ padding:0 24px;
 justify-content:center;
 @media and screen (max-width: 768px){
     flex-direction:column;
+    // height:1200px;
  }
 `
 export const InfoRow =  styled.div`
@@ -66,7 +67,8 @@ width:100%;
 margin-bottom:25px;
 font-size:18px;
 line-height:24px;
-color:${({darkText})=>(darkText?"#000":"#fff")}
+color:${({darkText})=>(darkText?"#000":"#fff")};
+
 `
 
 export const ImgWrap = styled.div`
@@ -90,4 +92,23 @@ export const WhiteLine = styled.hr`
     margin-bottom:1rem;
     border: 4px solid #fff;
     border-radius:15px;
+`
+export const ChevronContainer = styled.div`
+margin-top:25px;
+display:flex;
+justify-content:center;
+align-items:center;
+color: #fff;
+text-shadow: 2px 2px 4px #000000;
+cursor: pointer;
+font-size: 2rem;
+font-weight: bold;
+text-decoration: none;
+z-index:7;
+&:hover{
+    transition: 0.2s ease-in-out;
+    color:#1969EA;
+    text-shadow: 2px 2px 4px #fff;
+    font-size:2.5rem;
+}
 `
