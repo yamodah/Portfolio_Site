@@ -28,7 +28,7 @@ width: 100%;
 padding: 0 24px;
 max-width: 1100px;
 `
-export const NavLogo = styled(LinkRouter)`
+export const NavLogo = styled(LinkScroll)`
 color: #fff;
 text-shadow: 2px 2px 4px #000000,2px 2px 4px #000000;
 justify-self:flex-start;

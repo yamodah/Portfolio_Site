@@ -54,7 +54,7 @@ const HomeHero = () => {
         </HeroBtnsWrapper>
       </HeroContent>
       
-        <AnchorIcon to="/">
+        <AnchorIcon to="about">
             <FaChevronDown />
         </AnchorIcon>
     </HeroContainer>

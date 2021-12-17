@@ -1,3 +1,4 @@
+import { Link as LinkScroll } from "react-scroll";
 import styled from "styled-components";
 
 export const InfoContainer =styled.div`
@@ -93,7 +94,7 @@ export const WhiteLine = styled.hr`
     border: 4px solid #fff;
     border-radius:15px;
 `
-export const ChevronContainer = styled.div`
+export const ChevronContainer = styled(LinkScroll)`
 margin-top:25px;
 display:flex;
 justify-content:center;
@@ -111,4 +112,8 @@ z-index:7;
     text-shadow: 2px 2px 4px #fff;
     font-size:2.5rem;
 }
+`
+
+export const PageDown = styled(LinkScroll)`
+
 `
