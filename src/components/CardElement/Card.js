@@ -13,16 +13,16 @@ export function Cards() {
        Why you may ask ? Because why not! Writing in the terminal feels cool, it feels offical. 
       </Card.Text>
     </Card.Body>
-    <Card.Footer style={{display:"flex",justifyContent:"center",backgroundColor:"white"}}>
+    <Card.Footer style={{backgroundColor:"white",border:"none"}}>
     <Dropdown>
   <Dropdown.Toggle variant="primary" id="dropdown-basic">
-        Project Links
+    Links
     </Dropdown.Toggle>
 
     <Dropdown.Menu>
-        <Dropdown.Item href="#/action-1">Github Repository</Dropdown.Item>
-        <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
-        <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+        <Dropdown.Item href="https://github.com/yamodah/notepad_cli">CLI App Repository</Dropdown.Item>
+        <Dropdown.Item href="https://github.com/yamodah/Notepad_api">Backend API Repository</Dropdown.Item>
+        <Dropdown.Item href="#/action-3">Frontend Client (live site)</Dropdown.Item>
     </Dropdown.Menu>
     </Dropdown>
     </Card.Footer>
