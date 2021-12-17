@@ -1,10 +1,10 @@
 import React from 'react'
-import { Card, CardGroup } from 'react-bootstrap'
+import { Card, CardGroup, Dropdown } from 'react-bootstrap'
 
 export function Cards() {
     return (
- <CardGroup id="projects">
-  <Card>
+ <CardGroup id="projects" style={{flexDirection:"column",fontFamily:"'Raleway', sans-serif"}}>
+  <Card style={{marginBottom:"2.5rem", border:"none"}} >
     <Card.Img variant="top" src="holder.js/100px160" />
     <Card.Body>
       <Card.Title>Notepad CLI App</Card.Title>
@@ -13,35 +13,18 @@ export function Cards() {
        Why you may ask ? Because why not! Writing in the terminal feels cool, it feels offical. 
       </Card.Text>
     </Card.Body>
-    <Card.Footer>
-      <small className="text-muted">Last updated 3 mins ago</small>
-    </Card.Footer>
-  </Card>
-  <Card>
-    <Card.Img variant="top" src="holder.js/100px160" />
-    <Card.Body>
-      <Card.Title>Card title</Card.Title>
-      <Card.Text>
-        This card has supporting text below as a natural lead-in to additional
-        content.{' '}
-      </Card.Text>
-    </Card.Body>
-    <Card.Footer>
-      <small className="text-muted">Last updated 3 mins ago</small>
-    </Card.Footer>
-  </Card>
-  <Card>
-    <Card.Img variant="top" src="holder.js/100px160" />
-    <Card.Body>
-      <Card.Title>Card title</Card.Title>
-      <Card.Text>
-        This is a wider card with supporting text below as a natural lead-in to
-        additional content. This card has even longer content than the first to
-        show that equal height action.
-      </Card.Text>
-    </Card.Body>
-    <Card.Footer>
-      <small className="text-muted">Last updated 3 mins ago</small>
+    <Card.Footer style={{display:"flex",justifyContent:"center",backgroundColor:"white"}}>
+    <Dropdown>
+  <Dropdown.Toggle variant="primary" id="dropdown-basic">
+        Project Links
+    </Dropdown.Toggle>
+
+    <Dropdown.Menu>
+        <Dropdown.Item href="#/action-1">Github Repository</Dropdown.Item>
+        <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
+        <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+    </Dropdown.Menu>
+    </Dropdown>
     </Card.Footer>
   </Card>
 </CardGroup>
