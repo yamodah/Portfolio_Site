@@ -4,6 +4,8 @@ import Navbar from '../navbar'
 import Sidebar from '../sidebar'
 import InfoSection from '../InfoElement'
 import { homeObj } from '../InfoElement/Data'
+import Projects from '../projects'
+
 const Home = () => {
     const [isOpen, setIsOpen] = useState(false)
     const toggle = () =>{
@@ -15,6 +17,7 @@ const Home = () => {
 <Navbar toggle={toggle}/>
 <HomeHero/>
 <InfoSection {...homeObj}/>
+<Projects/>
 </>
     )
 }

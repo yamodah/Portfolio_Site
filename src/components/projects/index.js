@@ -1,10 +1,10 @@
 import React from 'react'
-
+import { Cards } from '../CardElement/Card'
 const Projects = () => {
     return (
-        <div>
-            
-        </div>
+        <>
+        <Cards />
+        </>
     )
 }
 
