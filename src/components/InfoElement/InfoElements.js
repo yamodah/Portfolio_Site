@@ -4,9 +4,9 @@ import styled from "styled-components";
 export const InfoContainer =styled.div`
 color:#fff;
 background: ${({lightBg})=>(lightBg ? "rgba(25, 105, 234, 0.61)": "#010606")};
-
-@media screeen and (max-width: 768px){
-    // height:1200px;
+height:850px;
+@media screeen and (max-width: 1200px){
+    min-height:1000px;
 }
 `
 export const InfoWrapper = styled.div`

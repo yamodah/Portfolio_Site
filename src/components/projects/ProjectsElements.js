@@ -6,7 +6,7 @@ import styled from "styled-components";
  flex-direction:column;
  justify-content:flex-start;
  align-items:center;
- padding:160px 60px 0 60px;
+ padding:160px 100px 0 100px;
  background-color:rgba(25, 25, 76, 0.8);
  font-family: 'Raleway', sans-serif;
  @media screen and (max-width: 768px){
