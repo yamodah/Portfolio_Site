@@ -44,6 +44,7 @@ export const Img = styled.img`
   object-fit: cover;
   background: #232a34;
   opacity:0.75;
+  object-position:65%
 `
 export const HeroContent = styled.div`
   z-index: 3;
