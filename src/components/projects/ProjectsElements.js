@@ -10,8 +10,8 @@ import styled from "styled-components";
  background-color:rgba(25, 25, 76, 0.8);
  font-family: 'Raleway', sans-serif;
 
- @media and screen (max-width:768px){
+ @media screen and (max-width:768px){
     padding:160px 50px 0 50px;
- }
+ };
  `
 
