@@ -11,7 +11,7 @@ import {
   HeroH1,
   HeroH2,
   AnchorIcon,
-} from "./HeroHomeElements.js";
+} from "./heroHomeElements";
 
 import { Button } from "../ButtonElement/Button";
 import Video from "../../videos/oceanDarkWater.mp4";
