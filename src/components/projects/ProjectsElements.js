@@ -9,11 +9,11 @@ import styled from "styled-components";
  padding:160px 100px 0 100px;
  background-color:rgba(25, 25, 76, 0.8);
  font-family: 'Raleway', sans-serif;
- @media screen and (max-width: 768px){
-     height:1100px;
- }
- @media screen and (max-width: 768px){
-     height:1400px;
- }
+//  @media screen and (max-width: 1200px){
+//      height:1100px;
+//  };
+//  @media screen and (max-width: 560px){
+//      height:1400px;
+//  }
  `
 

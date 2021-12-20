@@ -32,7 +32,7 @@ const HomeHero = () => {
   return (
     <HeroContainer id="home">
       <HeroBg>
-        <VideoBg autoPlay loop muted src={Video} type="video/mp4" />
+        <VideoBg autoPlay loop muted playsinline src={Video} type="video/mp4" />
       </HeroBg>
       {/* <FaCloud style={{fontSize:"350px", color:"#1969EA",zIndex:"1", marginTop:"85px", alignSelf:"flex-start", opacity:".45"}}/> */}
       <HeroContent>
