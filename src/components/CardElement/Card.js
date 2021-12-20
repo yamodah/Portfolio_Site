@@ -33,7 +33,7 @@ export function Cards() {
           rel="noopener">CLI App Repo</Dropdown.Item>
         <Dropdown.Item href="https://github.com/yamodah/Notepad_api" target='_blank'
           rel="noopener">Backend API Repo</Dropdown.Item>
-        <Dropdown.Item href="#/action-3" target='_blank'
+        <Dropdown.Item href="https://yamodahsnotepad.herokuapp.com/notes" target='_blank'
           rel="noopener">Frontend (live site)</Dropdown.Item>
     </Dropdown.Menu>
     </Dropdown>
