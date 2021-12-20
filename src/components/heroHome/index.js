@@ -30,10 +30,11 @@ const HomeHero = () => {
 //   const handleHoverE = () => {
 //     setHoverE(!hoverE);
 //   };
+const beachImg = require("../../images/beachMobile.jpeg")
   return (
     <HeroContainer id="home">
       <HeroBg>
-        {isMobile ? <img src="../../images/beachMobile" alt="sunny_beach"/>:<VideoBg autoPlay loop muted playsinline src={Video} type="video/mp4" />}
+        {isMobile ? <img src={beachImg} alt="sunny_beach"/>:<VideoBg autoPlay loop muted playsinline src={Video} type="video/mp4" />}
       </HeroBg>
       {/* <FaCloud style={{fontSize:"350px", color:"#1969EA",zIndex:"1", marginTop:"85px", alignSelf:"flex-start", opacity:".45"}}/> */}
       <HeroContent>
