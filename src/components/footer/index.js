@@ -14,19 +14,29 @@ const Footer = () => {
       <FooterWrapper>
         {/* <FooterLinkTitle>Personal Links</FooterLinkTitle> */}
         <Row>
-          <IconLink>
+          <IconLink href="mailto:yassinedahlek@gmail.com">
             <GrMail />
           </IconLink>
-          <IconLink>
+          <IconLink
+            href="https://www.linkedin.com/in/yassine-dahlek"
+            target="_blank"
+            rel="noopener"
+            aria-label="LinkedIn"
+          >
             <FaLinkedin />
           </IconLink>
-          <IconLink>
+          <IconLink
+            href="https://github.com/yamodah"
+            target="_blank"
+            rel="noopener"
+            aria-label="Github"
+          >
             <FaGithubAlt />
           </IconLink>
         </Row>
 
         <ThankYouText>
-          Thank you so much for visting my site ! - yassine
+          Thank you so much for visting my site ! - Yassine
         </ThankYouText>
       </FooterWrapper>
     </FooterContainer>

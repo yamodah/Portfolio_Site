@@ -28,9 +28,9 @@ export const Row = styled.div`
 export const IconLink = styled.a`
   color: #fff;
   text-decoration: none;
-  padding: 0 1rem;
+  padding: 0 1.25rem;
   cursor: pointer;
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   &:hover {
     color: #1969ea;
     // text-shadow: 2px 2px 4px #fff;
