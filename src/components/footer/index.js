@@ -12,7 +12,7 @@ const Footer = () => {
   return (
     <FooterContainer>
       <FooterWrapper>
-        <FooterLinkTitle>Personal Links</FooterLinkTitle>
+        {/* <FooterLinkTitle>Personal Links</FooterLinkTitle> */}
         <Row>
           <IconLink>Email</IconLink>
           <IconLink>LinkedIn</IconLink>
