@@ -1,8 +1,10 @@
 import styled from "styled-components";
 
 export const FooterContainer = styled.footer`
-  background-color: #000000;
-  padding: 70px 35px;
+  background-color: #202022;
+  padding: 48px 24px;
+  border-top: solid 2px;
+  border-color: #fff;
 `;
 export const FooterWrapper = styled.div`
   display: flex;
@@ -21,6 +23,7 @@ export const Row = styled.div`
   justify-content: space-evenly;
   align-items: center;
   max-width: 500px;
+  margin: 25px 0;
 `;
 export const IconLink = styled.a`
   color: #fff;
@@ -35,5 +38,7 @@ export const IconLink = styled.a`
 `;
 
 export const ThankYouText = styled.h2`
-  font-size: 1rem;
+  font-size: 1.35rem;
+  // weight: bold;
+  // font-family: "Raleway", sans-serif;
 `;
