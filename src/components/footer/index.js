@@ -1,20 +1,26 @@
 import React from "react";
+import {
+  FooterWrapper,
+  FooterContainer,
+  FooterLinkTitle,
+  Row,
+  IconLink,
+  ThankYouText,
+} from "./FooterElements";
 
 const Footer = () => {
   return (
     <FooterContainer>
-      <FooterWrap>
-        <FooterLinksContainer>
-          <FooterLinksWrapper>
-            <FooterLinkItems>
-              <FooterLinkTitle>Personal Links</FooterLinkTitle>
-              <FooterLink>Email</FooterLink>
-              <FooterLink>LinkedIn</FooterLink>
-              <FooterLink>Github</FooterLink>
-            </FooterLinkItems>
-          </FooterLinksWrapper>
-        </FooterLinksContainer>
-      </FooterWrap>
+      <FooterWrapper>
+        <FooterLinkTitle>Personal Links</FooterLinkTitle>
+        <Row>
+          <IconLink>Email</IconLink>
+          <IconLink>LinkedIn</IconLink>
+          <IconLink>Github</IconLink>
+        </Row>
+
+        <ThankYouText>Thank you so much for visting my site !</ThankYouText>
+      </FooterWrapper>
     </FooterContainer>
   );
 };
