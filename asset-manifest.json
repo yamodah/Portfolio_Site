@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Portfolio_Site/static/css/main.28c85f41.css",
+    "main.js": "/Portfolio_Site/static/js/main.66500024.js",
+    "static/media/oceanDarkWater.mp4": "/Portfolio_Site/static/media/oceanDarkWater.6d9003635a443e8b5615.mp4",
+    "static/media/Fitness_Log-DEMO.mp4": "/Portfolio_Site/static/media/Fitness_Log-DEMO.cecf1228acfd7015723c.mp4",
+    "static/media/movies_site.jpg": "/Portfolio_Site/static/media/movies_site.820e25e65dd29fe2c4f1.jpg",
+    "static/media/beachMobile.jpeg": "/Portfolio_Site/static/media/beachMobile.484a83d2cfb486982d63.jpeg",
+    "static/media/gameScreenGrab.png": "/Portfolio_Site/static/media/gameScreenGrab.6459282f8fb0570665f8.png",
+    "static/media/notepad_demo_image.jpg": "/Portfolio_Site/static/media/notepad_demo_image.b9cf7efa370366d9cdaa.jpg",
+    "static/media/reservations_screenShot.png": "/Portfolio_Site/static/media/reservations_screenShot.db7a5147944d2c0b5b1b.png",
+    "index.html": "/Portfolio_Site/index.html",
+    "main.28c85f41.css.map": "/Portfolio_Site/static/css/main.28c85f41.css.map",
+    "main.66500024.js.map": "/Portfolio_Site/static/js/main.66500024.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.28c85f41.css",
+    "static/js/main.66500024.js"
+  ]
+}
